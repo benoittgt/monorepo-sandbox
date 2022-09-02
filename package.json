@@ -30,11 +30,14 @@
     "release": "lerna publish from-package"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "lerna": "^5.5.0"
   },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.24.4"
   }
 }
